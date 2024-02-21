@@ -1,6 +1,6 @@
 # CodeLeapApi
 
-Test built using Django and Django Rest Framework.
+Test built using Django and Django Rest Framework, core rest api features are located in the `CodeLeapApp/` folder
 
 # Running locally
 
