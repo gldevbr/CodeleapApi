@@ -2,6 +2,13 @@
 
 Test built using Django and Django Rest Framework.
 
+# Running locally
+
+assuming you're on a virtual environment of your preference, just type:
+```
+pip install -r requirements.txt
+```
+
 # Key concepts
 
 - The project itself is built using Django and DNF
