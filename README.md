@@ -12,10 +12,10 @@ pip install -r requirements.txt
 # Key concepts
 
 - The project itself is built using Django and DNF
-- id, username, created_datetime cannot be changed on update (for reference in how username is skipped from the update process please refer to the views.py file)
-- For best performance we are using paginated results, 10 results per page (for reference on pagination details, please refer to the settings.py file)
+- **id**, **username**, **created_datetime** cannot be changed on update (for reference in how username is skipped from the update process please refer to the views.py file)
+- For best performance we are using paginated results, **10 results per page** (for reference on pagination details, please refer to the settings.py file)
 - Delete should not return any data
-- built using a virtual environment, to enable just refer to `env/Scripts/activate`
+- built using a virtual environment
 - Api tests we're done using **Postman**
 
 # Example response
