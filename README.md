@@ -14,6 +14,10 @@ after installing dependencies, run migrations with:
 ```
 python manage.py migrate
 ```
+then you are ready to go, run the project with this command:
+```
+python manage.py runserver
+```
 # Key concepts
 
 - The project itself is built using Django and DNF
