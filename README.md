@@ -63,3 +63,7 @@ python manage.py runserver
     ]
 }
 ```
+
+# License
+
+[MIT](https://github.com/gldevbr/CodeleapApi/blob/main/LICENSE)
