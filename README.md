@@ -4,6 +4,10 @@ Test built using Django and Django Rest Framework, core rest api features are lo
 
 > Online Url: https://gldevbr.pythonanywhere.com/carrers/
 
+# Requirements
+
+* Python 3.12.2
+
 # Running locally
 
 assuming you're on a virtual environment of your preference, just type:
