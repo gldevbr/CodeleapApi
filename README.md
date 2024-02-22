@@ -2,13 +2,18 @@
 
 Test built using Django and Django Rest Framework, core rest api features are located in the `CodeLeapApp/` folder.
 
+> Online Url: https://gldevbr.pythonanywhere.com/carrers/
+
 # Running locally
 
 assuming you're on a virtual environment of your preference, just type:
 ```
 pip install -r requirements.txt
 ```
-
+after installing dependencies, run migrations with:
+```
+python manage.py migrate
+```
 # Key concepts
 
 - The project itself is built using Django and DNF
