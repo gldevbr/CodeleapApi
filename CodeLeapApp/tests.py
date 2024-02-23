@@ -79,7 +79,7 @@ class CarrersViewSetTests(APITestCase):
         # Then we check the api response content
         self.assertEqual(response.data['title'], 'some new tilte')
         self.assertEqual(response.data['content'], 'some new content')
-
+    # OK - PASSING
     def test_carrers_destroy_delete(self):
         self.setUp
         url = reverse('carrers-detail', kwargs={'pk': '1'})
