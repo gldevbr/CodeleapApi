@@ -29,9 +29,9 @@ As we are using generated routes we used the `drf_test_generator` package to boo
 
 The tests are located in the **CodeLeapApp** folder in the `tests.py` file.
 
-The tests verifies all the Key Concepts above, including username that cannot be changed and all CRUD logic.
+The tests verifies all the Key Concepts in the next section, including username that cannot be changed and all CRUD logic.
 
-You can run the tests with the command above:
+You can run the tests with this command:
 
 ```
 python manage.py test
