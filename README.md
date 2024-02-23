@@ -22,6 +22,21 @@ then you are ready to go, run the project with this command:
 ```
 python manage.py runserver
 ```
+
+# Running tests
+
+As we are using generated routes we used the `drf_test_generator` package to bootstrap our tests then adapted them to meet the api criterias.
+
+The tests are located in the **CodeLeapApp** folder in the `tests.py` file.
+
+The tests verifies all the Key Concepts above, including username that cannot be changed and all CRUD logic.
+
+You can run the tests with the command above:
+
+```
+python manage.py test
+```
+
 # Key concepts
 
 - The project itself is built using Django and DNF
